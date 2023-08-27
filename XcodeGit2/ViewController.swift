@@ -14,8 +14,12 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         print("初めてのコミット")
         
+        
     }
-
-
+    @IBOutlet weak var label: UILabel!
+    
+    @IBAction func button(_ sender: Any) {
+    }
+    
 }
 
